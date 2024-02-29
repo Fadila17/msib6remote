@@ -1,0 +1,49 @@
+/* contoh selector di tag eksternal */
+p {
+    color: crimson;
+    text-align: justify;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12pt;
+  }
+body{
+  background-color: aquamarine;
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+fieldset, legend{
+  border-width: 1px;
+  border-color: maroon;
+  border-radius: 30px;
+}
+legend{
+  padding: 10px;
+  background-color: maroon;
+  color: white;
+  font-weight: bold;
+  font-size: 4 ;
+}
+table{
+  border: 10px;
+  margin:auto;
+}
+td,th{
+  padding: 5px;
+  border: 1px solid green;
+}
+tr:hover{
+  background-color: blue;
+  color: red;
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+}
+
+/* contoh selector id */
+#paragraph{
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  color: aqua;
+}

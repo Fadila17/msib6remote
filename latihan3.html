@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Form</title>
+  </head>
+  <body>
+    <form action="">
+      <table border="1" cellspacing="" align="center"cellpadding="15"width="70%">
+        <thead>
+          <tr bgcolor="darkgray">
+            <th colspan="2">Latihan Form</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th colspan="2">
+              <input type="submit" name="" id="" value="Kirim" /> &nbsp; &nbsp;
+              <input type="reset" name="" id="" value="Batal" />
+            </th>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td >
+              <label for="" >Masukkan Nama :</label>
+            </td>
+            <td>
+              <input type="text" name="" id="" size="50" placeholder="Isi form ini" required />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="">Masukkan Email :</label>
+            </td>
+            <td>
+              <input type="email" size="50" placeholder="Masukkan alamat email" />
+              <!-- menigrim form yang sifatnya rahasia misal id -->
+              <input type="hidden" name="" id="">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="">Gender</label>
+            </td>
+            <td>
+              <input type="radio" id="" value="L" name="gender" > Laki-Laki &nbsp;
+              <input type="radio" id="" value="P" name="gender"> Perempuan
+            </td>
+          </tr>
+          <tr>
+            <td>Hobby</td>
+            <td>
+              <input type="checkbox" name="hobby" value="=membaca">Membaca <br>
+              <input type="checkbox" name="hobby" value="=menulis">Menulis <br>
+              <input type="checkbox" name="hobby" value="=olahraga">Olahraga <br>
+              <input type="checkbox" name="hobby" value="=makan">Makan <br>
+              <input type="checkbox" name="hobby" value="=tidur" checked>Tidur <br>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Pendidikan</label></td>
+            <td>
+              <select name="" id="">
+                <option value="">-- Pilih Pendidikan--</option>
+                <option value="SMA">SMA</option>
+                <option value="D3">D3</option>
+                <option value="S1" >S1</option>
+                <option value="S2">S2</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Alamat</label></td>
+            <td><textarea name="" id="" cols="50" rows="10"></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="">Disabled</label></td>
+            <td><input type="text" disabled></td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
